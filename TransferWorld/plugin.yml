@@ -1,0 +1,19 @@
+﻿name: TransferWorld
+author: tream
+main: tream\TransferWorld
+api: [2.0.0, 3.0.0-ALPHA3]
+version: 1
+
+commands:
+  월드이동:
+    permission: TransferWorld.command
+    description: §b§l[ §f월드이동 플러그인 §b]
+  월드목록:
+    permission: TransferList.command
+    description: §b§l[ §f월드목록 플러그인 §b]
+
+permissions:
+          TransferWorld.command:
+            default: true
+          TransferList.command:
+            default: true
